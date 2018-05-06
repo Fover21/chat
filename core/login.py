@@ -5,7 +5,7 @@ from lib.mypickle import MyPickle
 from lib.Prompt import Prompt
 
 
-class Login(object):  # 校园用户登录
+class Login(object):  # 用户登录
     def __init__(self):
         self.auth_dic = {'username': None,  # 用户名
                          'status': False,  # 登录状态
